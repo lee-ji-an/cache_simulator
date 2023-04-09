@@ -1,8 +1,9 @@
 # cache_simulator
+cache simulator with C language
 
+<br>
 
-
-## how to make trace file
+## How to make trace file
 ```
 make 'sample.trc' file in same directory with C file
 
@@ -15,20 +16,21 @@ ex)
 00010004 R
 00010008 R
 
-
 ```
+<br>
 
 ## Compile
 ```
 gcc cache_sim.c -o cache_sim  
 ./cache_sim -a=<cache size> -s=<block size> -b=<set size>
 ```
-
+<br>
 
 ## Cache Policy
 - Write Policy : Write-back
 - The size of the cache, block and set must be an exponential multiplier of 2.
 
+<br>
 
 ## Result Example
 ```
@@ -48,4 +50,5 @@ total number of hits: 21
 total number of misses: 91
 miss rate: 81.2%
 total number of dirty blocks: 0
-average memory access cycle: 311.7%  ```
+average memory access cycle: 311.7% 
+```
